@@ -1,0 +1,120 @@
+/* General Styles */
+.TV {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlap-group-wrapper {
+    background-color: #CBD5E1;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlap-group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header azul ajustado */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #1400FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.cuenta-corp {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.cuenta-corporrativa-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Empuja el texto y la imagen hacia la derecha */
+}
+
+.text-wrapper {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 15px; /* Mantiene espacio entre el texto y la imagen */
+    text-align: right;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+/* Centrando los botones */
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.rectangle, .rectangle-2 {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.text-wrapper-3, .text-wrapper-2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+}
+
