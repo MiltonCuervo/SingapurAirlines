@@ -1,6 +1,6 @@
 # Singapur Airlines - Módulo de Autenticación (Frontend)
 
-Este repositorio contiene el frontend del módulo de autenticación de **Singapur Airlines**, desarrollado con base en los **mockups proporcionados en Figma**. El frontend incluye las pantallas de **Iniciar Sesión**, **Recuperar Cuenta**, **Crear Cuenta**, **Editar Perfil**, y funcionalidades de validación y navegación interactiva.
+Este repositorio contiene el frontend del módulo de autenticación de **Singapur Airlines**, desarrollado con base en los **mockups proporcionados en Figma**. El frontend incluye las pantallas de **Iniciar Sesión**, **Recuperar Cuenta**, **Crear Cuenta**, **Editar Perfil**, **Vista de administrador** y funcionalidades de validación y navegación interactiva.
 
 ## Mockups de Figma
 
